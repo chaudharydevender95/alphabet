@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wolfknight.alphabet.baby_category_Fragement">
+
+
+    <ImageView
+        android:id="@+id/A_I_But"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baby_ai"
+        android:textStyle="italic|bold"
+        android:text="Alphabet A - I"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/Couns_0_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baby_count"
+        android:text="count 0-9"
+        android:textSize="30dp"
+        android:textStyle="italic|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp" />
+
+    <ImageView
+        android:id="@+id/body_parts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baby_body_parts"
+        android:textSize="30dp"
+        android:textStyle="italic|bold"
+        android:text="Body parts"
+        android:layout_below="@+id/A_I_But"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/colorsActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baby_colour"
+        android:textSize="30dp"
+        android:textStyle="italic|bold"
+        android:text="Colors"
+        android:layout_below="@+id/body_parts"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/rhymesActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baby_rhyms"
+        android:textSize="30dp"
+        android:textStyle="italic|bold"
+        android:text="rhymes"
+        android:layout_below="@+id/body_parts"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+
+

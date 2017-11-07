@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\Alphabet wolf\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tabbed.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\Alphabet wolf\\app\\src\\main\\res\\menu\\menu_tabbed.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\Alphabet wolf\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_lesson.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\Alphabet wolf\\app\\src\\main\\res\\menu\\menu_lesson.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\AndroidStudioProjects\\Alphabet wolf\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_kids2.xml",
+        "source": "C:\\Users\\lenovo\\AndroidStudioProjects\\Alphabet wolf\\app\\src\\main\\res\\menu\\menu_kids2.xml"
+    }
+]

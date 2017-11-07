@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prac_tod_screen"
+    tools:context="com.example.wolfknight.alphabet.tod_thingsToEat">
+
+    <ImageView
+        android:id="@+id/thingImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="59dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="35dp"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayout2">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/thingName"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="27dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/reload_pic"
+            android:id="@+id/imageView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/home"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yes_click_button"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="55dp"
+            android:layout_above="@+id/imageView4"
+            android:layout_alignParentStart="true"
+            android:id="@+id/right"
+            android:background="@color/colorPrimary"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/no_click_button"
+            android:layout_marginEnd="46dp"
+            android:id="@+id/wrong"
+            android:background="@color/colorPrimary"
+            android:layout_alignTop="@+id/right"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

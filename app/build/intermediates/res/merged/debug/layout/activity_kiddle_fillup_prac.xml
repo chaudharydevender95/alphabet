@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunny_background"
+    tools:context="com.example.wolfknight.alphabet.kiddleFillupPrac">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimary"
+        android:text="Select the correct letter for the missing one."
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="71dp"
+        android:id="@+id/linearLayout"
+        android:layout_above="@+id/wordline1"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/first"
+            android:tag="1"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textAllCaps="true"
+            android:textSize="120dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#EF5350"
+            android:shadowColor="#F48FB1"
+            android:shadowRadius="1.5"
+            android:shadowDx="1"
+            android:shadowDy="1"/>
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:tag="2"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="120dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#EF5350"
+            android:shadowColor="#F48FB1"
+            android:shadowRadius="1.5"
+            android:shadowDx="1"
+            android:shadowDy="1"/>
+        <TextView
+            android:id="@+id/third"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:tag="3"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textSize="120dp"
+            android:layout_gravity="center"
+            android:textColor="#EF5350"
+            android:shadowColor="#F48FB1"
+            android:shadowRadius="1.5"
+            android:shadowDx="1"
+            android:shadowDy="1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/wordline1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wordline2"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:text="A"
+            android:tag="a"
+            android:textSize="25dp"
+            android:onClick="buttonClicked"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:text="B"
+            android:tag="b"
+            android:textSize="25dp"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="c"
+            android:textSize="25dp"
+            android:text="C"
+            android:onClick="buttonClicked" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="d"
+            android:textSize="25dp"
+            android:text="D"
+            android:onClick="buttonClicked" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="e"
+            android:textSize="25dp"
+            android:text="e"
+            android:onClick="buttonClicked"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="f"
+            android:textSize="25dp"
+            android:text="f"
+            android:onClick="buttonClicked" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="g"
+            android:textSize="25dp"
+            android:text="g"
+            android:onClick="buttonClicked" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="h"
+            android:textSize="25dp"
+            android:text="h"
+            android:onClick="buttonClicked" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="i"
+            android:textSize="25dp"
+            android:text="i"
+            android:onClick="buttonClicked" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/wordline2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wordline3"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="j"
+            android:textSize="25dp"
+            android:text="j"
+            android:onClick="buttonClicked"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="k"
+            android:textSize="25dp"
+            android:text="k"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="l"
+            android:textSize="25dp"
+            android:text="l"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="m"
+            android:textSize="25dp"
+            android:text="m"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="n"
+            android:textSize="25dp"
+            android:text="n"
+            android:onClick="buttonClicked"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="o"
+            android:textSize="25dp"
+            android:text="o"
+            android:onClick="buttonClicked"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="p"
+            android:textSize="25dp"
+            android:text="p"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="q"
+            android:textSize="25dp"
+            android:text="q"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="r"
+            android:textSize="25dp"
+            android:text="r"
+            android:onClick="buttonClicked"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/wordline3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="s"
+            android:textSize="25dp"
+            android:text="s"
+            android:onClick="buttonClicked"/>
+        />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="t"
+            android:textSize="25dp"
+            android:text="t"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="u"
+            android:textSize="25dp"
+            android:text="u"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="v"
+            android:textSize="25dp"
+            android:text="v"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="w"
+            android:textSize="25dp"
+            android:text="w"
+            android:onClick="buttonClicked"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="x"
+            android:textSize="25dp"
+            android:text="x"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="y"
+            android:textSize="25dp"
+            android:text="y"
+            android:onClick="buttonClicked"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:tag="z"
+            android:textSize="25dp"
+            android:text="z"
+            android:onClick="buttonClicked"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

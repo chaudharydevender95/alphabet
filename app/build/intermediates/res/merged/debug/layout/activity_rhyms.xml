@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lower_background"
+    tools:context="com.example.wolfknight.alphabet.rhymsActivity">
+
+
+    <ImageButton
+        android:id="@+id/ba_ba"
+        android:tag="1"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/mary_rhym_button"
+        android:onClick="playAudio"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        android:tag="2"
+        app:srcCompat="@drawable/old_mcdonald_button"
+        android:scaleType="fitXY"
+
+        android:onClick="playAudio"
+        android:layout_alignTop="@+id/ba_ba"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        android:tag="3"
+        app:srcCompat="@drawable/rain_button"
+        tools:layout_editor_absoluteX="36dp"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteY="101dp"
+        android:onClick="playAudio"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageButton" />
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        android:tag="4"
+        app:srcCompat="@drawable/wheels_button"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="101dp"
+        android:onClick="playAudio"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton6" />
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="148dp"
+        android:tag="5"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/ants_go_button"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="101dp"
+        android:onClick="playAudio"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/ba_ba"
+        android:layout_marginBottom="35dp" />
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        android:tag="0"
+        app:srcCompat="@drawable/ba_ba_button"
+        tools:layout_editor_absoluteX="36dp"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteY="101dp"
+        android:onClick="playAudio"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="35dp" />
+</RelativeLayout>

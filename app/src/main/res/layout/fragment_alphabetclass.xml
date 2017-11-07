@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lower_background"
+    tools:context="layout.alphabetclass">
+
+    <ImageView
+        android:id="@+id/body_parts"
+        android:src="@drawable/body_part"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/familyFragButton"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/must_words"
+        android:src="@drawable/must_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/body_parts"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageView
+        android:id="@+id/rhymesActivity"
+        android:src="@drawable/rhymes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body_parts"
+
+        />
+
+    <ImageView
+        android:id="@+id/familyFragButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/family"
+        />
+
+    <ImageView
+        android:id="@+id/manner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/manner"
+
+        android:layout_below="@+id/body_parts"
+        android:layout_alignEnd="@+id/must_words"
+         />
+
+</RelativeLayout>

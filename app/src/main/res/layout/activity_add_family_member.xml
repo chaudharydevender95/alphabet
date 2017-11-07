@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/tod_bck"
+    android:orientation="vertical"
+    tools:context="com.example.wolfknight.alphabet.AddFamilyMember">
+
+    <ImageView
+        android:id="@+id/relativeImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/upload_pic"
+        android:layout_above="@+id/relativeEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="84dp" />
+
+    <EditText
+        android:id="@+id/relativeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:layout_marginBottom="52dp"
+        android:hint="Family Name"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/relativeLayout3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="7dp" />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/relativeLayout3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/reload_pic"
+            android:id="@+id/imageView4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/home"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="save" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

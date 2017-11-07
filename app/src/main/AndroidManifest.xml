@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wolfknight.alphabet">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".startpage" />
+        <activity android:name=".continue_Activity" />
+        <activity android:name=".registration" />
+        <activity android:name=".home_page" />
+        <activity android:name=".category">
+
+        </activity>
+        <activity
+            android:name=".lesson"
+            android:label="@string/title_activity_lesson"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".kids2"
+            android:label="@string/title_activity_kids2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TabbedActivity"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".family" />
+        <activity android:name=".AddFamilyMember" />
+        <activity android:name=".mustWords" />
+        <activity android:name=".Alphabets" />
+        <activity android:name=".tod_family_prac" />
+        <activity android:name=".tod_bodyParts" />
+        <activity android:name=".child_add_sub" />
+        <activity android:name=".baby_body_parts" />
+        <activity android:name=".baby_body_parts_prac" />
+        <activity android:name=".todThingsToEatPrac" />
+        <activity android:name=".select_Child" />
+        <activity android:name=".baby_a_i" />
+        <activity android:name=".baby_AI" />
+        <activity android:name=".baby_a_i_prac" />
+        <activity android:name=".rhymsActivity" />
+        <activity android:name=".audioPlay" />
+        <activity android:name=".mustWordPrac" />
+        <activity android:name=".tod_bodyParts_prac" />
+        <activity android:name=".tod_thingsToEat" />
+        <activity android:name=".baby_color" />
+        <activity android:name=".infant_missing_letter" />
+        <activity android:name=".infant_shape_picker" />
+        <activity android:name=".child_table" />
+        <activity android:name=".kiddleTable" />
+        <activity android:name=".kiddleFillupPrac" />
+        <activity android:name=".kiddleMulDiv" />
+        <activity android:name=".reference">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

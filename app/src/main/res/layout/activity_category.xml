@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D3D3D3"
+    tools:context="com.example.wolfknight.alphabet.category">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:src="@drawable/profile"
+            android:id="@+id/headerImage"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="end"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            />
+        </android.support.v7.widget.Toolbar>
+
+    <ImageView
+            android:id="@+id/toddler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/toddler_but"
+        android:src="@drawable/toddler_but"
+        android:layout_margin="5dp"
+        />
+    <ImageView
+        android:id="@+id/Baby"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/baby_but"
+        android:layout_margin="5dp"
+         />
+    <ImageView
+        android:id="@+id/Infant"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@drawable/infant_button"
+         />
+
+    <ImageView
+        android:id="@+id/kiddle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/kiddie_button" />
+
+    <ImageView
+        android:id="@+id/child"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/chid_button" />
+</LinearLayout>
